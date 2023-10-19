@@ -29,14 +29,16 @@ const page = () => {
           <p>My Dog</p>
         </Link>
         <div>
-          <Image
-            className=""
-            width={400}
-            height={400}
-            src="https://upload.wikimedia.org/wikipedia/commons/2/21/Dog_In_The_Grass.jpg"
-            alt="Test"
-          />
-          <p>My Friend`s Dog</p>
+          <Link href="./dogs/3">
+            <Image
+              className=""
+              width={400}
+              height={400}
+              src="https://upload.wikimedia.org/wikipedia/commons/2/21/Dog_In_The_Grass.jpg"
+              alt="Test"
+            />
+            <p>My Friend`s Dog</p>
+          </Link>
         </div>
       </div>
       <div className="grid grid-cols-2 grid-rows-1 gap-2 font-bold text-center text-black">
