@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.teks {
+  background-color: darkblue;
+  padding: 2rem;
+  color: white;
+}
